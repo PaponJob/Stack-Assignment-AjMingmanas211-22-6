@@ -31,8 +31,10 @@ int main(int argc, char *argv[]) {
   }
   
   if(match==0) cout<<"Parenthesis does not match"<<endl;
-  //else if()
-    //else if()
+  else if('['<']'&& '{'<'}')
+    cout<<"Too many open bracket"<<endl;
+    else if('['>']'&& '{'>'}')
+      cout<<"Too many close bracket"<<endl;
       else cout<<"Parenthesis match"<<endl;
   }
     /*s.push(5);
