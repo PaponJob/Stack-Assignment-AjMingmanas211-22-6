@@ -11,7 +11,7 @@ public:
     ~Stack();
     char pop();
     void push(char);
-  
+    int getSize(){return size;}
 };
 
 Stack::Stack(NodePtr t){

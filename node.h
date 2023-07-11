@@ -10,6 +10,7 @@ public:
   char get_value();
 	void set_next(NODE *);
 	NODE* get_next();
+  
 };
 typedef NODE* NodePtr;
 
